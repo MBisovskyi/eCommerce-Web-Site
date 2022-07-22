@@ -125,7 +125,7 @@ html {
 .sections_gap {
   background-color: white;
   height: 138px;
-  width: 100vw;
+  max-width: 1640px;
 }
 
 .about_us_container {
@@ -187,14 +187,20 @@ h2 {
 
 .products_row_container {
   display: flex;
-  justify-content: space-between;
   max-height: 810px;
   margin-bottom: 118px;
+}
+
+.product_card_link {
+  list-style: none;
+  text-decoration: none;
+  color: black;
 }
 
 .product_card {
   max-width: 399px;
   max-height: 692px;
+  margin-right: 222px;
 }
 
 .product_card img {
@@ -264,6 +270,8 @@ button:active {
 
 .email_field {
   height: 54px;
+  font-size: 35px;
+  font-weight: 200;
 }
 
 .message_field_container {
@@ -283,8 +291,9 @@ button:active {
 }
 
 .message_text_field {
-  height: 275px;
   margin-bottom: 75px;
+  font-size: 35px;
+  font-weight: 200;
 }
 
 .message_send_button {
