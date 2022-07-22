@@ -35,6 +35,7 @@ html {
 
 .navbar a {
   margin-right: 45px;
+  text-transform: uppercase;
 }
 
 .inside_upper_header a {
@@ -46,10 +47,6 @@ html {
   color: hsl(29, 59%, 47%);
 }
 
-.header_search_field:focus {
-  background-color: hsla(29, 59%, 47%, 0.2);
-}
-
 .header_logo_container {
   display: flex;
   align-items: center;
@@ -58,6 +55,7 @@ html {
 .header_logo_font {
   font-size: 30px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .header_logo_container img {
@@ -65,9 +63,13 @@ html {
   height: 40px;
 }
 
-.header_search_field {
+.text_field {
   margin-left: 67%;
   width: 292px;
+}
+
+.text_field:focus {
+  background-color: hsla(29, 59%, 47%, 0.2);
 }
 
 .header_cart {
@@ -136,6 +138,7 @@ h2 {
   padding-bottom: 17.5px;
   border-bottom: 5px solid black;
   margin-bottom: 118px;
+  text-transform: uppercase;
 }
 
 .about_us_container img {
@@ -244,7 +247,7 @@ h3 {
   border-bottom: 2px solid #bf7631;
 }
 
-.product_card_buttons button {
+button {
   background-color: #bf7631;
   color: white;
   width: 170px;
@@ -255,6 +258,37 @@ h3 {
   text-transform: uppercase;
 }
 
-.product_card_buttons button:active {
+button:active {
   border: 2px solid black;
+}
+
+.email_field {
+  height: 54px;
+}
+
+.message_field_container {
+  width: 1088px;
+  margin: auto;
+  font-size: 30px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.message_field_container input {
+  width: 100%;
+}
+
+.message_field_container p {
+  padding: 9px 0px;
+}
+
+.message_text_field {
+  height: 275px;
+  margin-bottom: 75px;
+}
+
+.message_send_button {
+  float: right;
+  height: 40px;
+  width: 130px;
 }
