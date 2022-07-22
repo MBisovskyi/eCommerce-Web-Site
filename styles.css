@@ -292,3 +292,70 @@ button:active {
   height: 40px;
   width: 130px;
 }
+
+.footer_container {
+  width: 100vw;
+  margin-top: 158px;
+  height: 162px;
+  background-color: #bf7631;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.footer_inner_container {
+  width: 70%;
+}
+
+.footer_top_container {
+  min-height: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_left_top_container {
+  display: flex;
+}
+
+.footer_left_top_container img {
+  width: 74px;
+  height: 74px;
+  margin: 10px;
+}
+
+.footer_right_top_container img {
+  width: 74px;
+  height: 74px;
+  margin: 10px;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer_logo img {
+  height: 96px;
+  width: 96px;
+}
+
+.footer_logo_font {
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer_bottom_container {
+  min-height: 30%;
+  width: 1088px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_copyright {
+  position: absolute;
+  right: 35px;
+}
