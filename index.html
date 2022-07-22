@@ -8,12 +8,12 @@
     <title>eCommerce Web Site</title>
   </head>
   <body>
-    <header>
+    <header id="home">
       <div class="upper_header">
         <div class="inside_upper_header">
           <nav>
-            <a href="#">HOME</a>
-            <a href="#">ABOUT</a>
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
             <a href="#">PRODUCTS</a>
             <a href="#">CONTENT</a>
           </nav>
@@ -29,7 +29,7 @@
           <div>
             <input class="header_search_field" type="text" />
           </div>
-          <span>CART (0)</span>
+          <a href="#">CART (0)</a>
         </div>
       </div>
       <div class="lower_header_container">
@@ -45,43 +45,46 @@
       </div>
     </header>
     <main>
-      <section>
-        <div>
+      <div id="about"></div>
+      <section class="about_us_container">
+        <!--ABOUT US-->
+        <div class="about_us_left_inner_container">
           <h2>ABOUT US</h2>
-          <p>lorem ipsum</p>
-          <img src="./assets/Vase_Dame_2048x2048.jpg" alt="Vase Dame" />
-          <div>
-            <p>lorem ipsum</p>
-            <p>lorem ipsum</p>
+          <p class="about_us_top_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque
+            laoreet suspendisse interdum consectetur libero id faucibus nisl
+            tincidunt. Facilisis mauris sit amet massa. Senectus et netus et
+            malesuada fames ac turpis egestas maecenas. Odio aenean sed
+            adipiscing diam donec adipiscing tristique risus nec. Sagittis id
+            consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh
+            sit amet commodo.
+          </p>
+          <div class="about_us_lower_left_inner_container">
+            <img src="./assets/Vase_Dame_2048x2048.jpg" alt="Vase Dame" />
+            <div class="about_us_lower_middle_container">
+              <p class="about_us_bottom_text">
+                Nulla porttitor massa id neque aliquam vestibulum morbi.
+                Facilisi nullam vehicula ipsum a arcu cursus vitae congue. Nam
+                libero justo laoreet sit amet cursus sit amet dictum. Tristique
+                magna sit amet purus gravida quis. Velit euismod in pellentesque
+                massa placerat. In ante metus dictum at tempor commodo. Libero
+                nunc consequat interdum varius sit amet mattis. Egestas sed sed
+                risus pretium quam vulputate dignissim. Diam phasellus
+                vestibulum lorem sed risus. Cursus sit amet dictum sit amet
+                justo donec enim.
+              </p>
+              <p>
+                Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit
+                amet mauris commodo quis imperdiet massa. Amet tellus cras
+                adipiscing enim eu turpis egestas pretium aenean. Nullam ac
+                tortor vitae purus.
+              </p>
+            </div>
           </div>
         </div>
-        <img
-          src="./assets/Cylinder_unglazed3_2048x2048.jpg"
-          alt="Cylinder unglazed vase"
-        />
-      </section>
-      <section>
-        <div>
-          <h2>OUR PRODUCTS</h2>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </section>
-      <section>
-        <div>
-          <h2>CONTACT US</h2>
-          <p>EMAIL</p>
-          <input type="email" />
-          <p>MESSAGE</p>
-          <input type="text" />
-          <button>SEND</button>
+        <div class="about_us_right_picture">
+          <img src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="" />
         </div>
       </section>
     </main>
