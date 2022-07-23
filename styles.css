@@ -50,6 +50,7 @@ html {
 .header_logo_container {
   display: flex;
   align-items: center;
+  margin-left: 30%;
 }
 
 .header_logo_font {
@@ -63,9 +64,26 @@ html {
   height: 40px;
 }
 
+.search_field_container {
+  position: relative;
+  align-content: center;
+}
+
 .text_field {
-  margin-left: 67%;
+  height: 21px;
   width: 292px;
+  font-size: 14px;
+  resize: none;
+  margin-top: 2%;
+  margin-left: 71%;
+}
+
+.search_image {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  top: 7px;
+  margin-left: 165%;
 }
 
 .text_field:focus {
@@ -262,6 +280,7 @@ button {
   font-weight: 600;
   border: none;
   text-transform: uppercase;
+  margin-left: 108px;
 }
 
 button:active {
@@ -272,6 +291,7 @@ button:active {
   height: 54px;
   font-size: 35px;
   font-weight: 200;
+  resize: none;
 }
 
 .message_field_container {
@@ -294,6 +314,7 @@ button:active {
   margin-bottom: 75px;
   font-size: 35px;
   font-weight: 200;
+  resize: none;
 }
 
 .message_send_button {
