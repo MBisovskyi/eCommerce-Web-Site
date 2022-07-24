@@ -13,6 +13,40 @@ html {
   letter-spacing: 50;
 }
 
+h3 {
+  width: 276px;
+  border-bottom: 5px solid black;
+  font-size: 30px;
+  font-weight: 200;
+  padding: 15px 50px 15px 0px;
+  text-transform: uppercase;
+}
+
+h2 {
+  width: 950px;
+  padding-bottom: 17.5px;
+  border-bottom: 5px solid black;
+  margin-bottom: 118px;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: #bf7631;
+  color: white;
+  width: 170px;
+  height: 39px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  text-transform: uppercase;
+  margin-left: 108px;
+}
+
+button:active {
+  border: 2px solid black;
+}
+/* Upper Header */
+
 .upper_header {
   width: 100%;
   height: 110px;
@@ -94,6 +128,8 @@ html {
   margin-left: 25px;
 }
 
+/* Lower Header */
+
 .lower_header_container {
   display: flex;
   background-color: black;
@@ -140,23 +176,19 @@ html {
   right: 100px;
 }
 
+/* Sections Separator */
+
 .sections_gap {
   background-color: white;
   height: 138px;
   max-width: 1640px;
 }
 
+/* About Us Section */
+
 .about_us_container {
   display: flex;
   justify-content: space-between;
-}
-
-h2 {
-  width: 950px;
-  padding-bottom: 17.5px;
-  border-bottom: 5px solid black;
-  margin-bottom: 118px;
-  text-transform: uppercase;
 }
 
 .about_us_container img {
@@ -198,10 +230,14 @@ h2 {
   margin-bottom: 100px;
 }
 
+/* Main */
+
 .main_container {
   max-width: 1640px;
   margin: auto;
 }
+
+/* Products Section */
 
 .products_row_container {
   display: flex;
@@ -235,14 +271,6 @@ h2 {
   text-transform: uppercase;
 }
 
-h3 {
-  width: 276px;
-  border-bottom: 5px solid black;
-  font-size: 30px;
-  font-weight: 200;
-  padding: 15px 50px 15px 0px;
-}
-
 .product_card_price {
   float: right;
   padding: 15px 0px 15px 0px;
@@ -271,21 +299,7 @@ h3 {
   border-bottom: 2px solid #bf7631;
 }
 
-button {
-  background-color: #bf7631;
-  color: white;
-  width: 170px;
-  height: 39px;
-  font-size: 20px;
-  font-weight: 600;
-  border: none;
-  text-transform: uppercase;
-  margin-left: 108px;
-}
-
-button:active {
-  border: 2px solid black;
-}
+/* Message Field */
 
 .email_field {
   height: 54px;
@@ -323,6 +337,8 @@ button:active {
   width: 130px;
 }
 
+/* Footer */
+
 .footer_container {
   width: 100vw;
   margin-top: 158px;
@@ -335,6 +351,8 @@ button:active {
 .footer_inner_container {
   width: 70%;
 }
+
+/* Upper Footer */
 
 .footer_top_container {
   min-height: 70%;
@@ -376,6 +394,8 @@ button:active {
   font-weight: 600;
   text-transform: uppercase;
 }
+
+/* Lower Footer */
 
 .footer_bottom_container {
   min-height: 30%;
